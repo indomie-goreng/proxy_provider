@@ -31,3 +31,35 @@ proxies:
       headers:
         Host: sg-lb.sshkit.org
     udp: true
+  - name: sg-lb.sshkit.org
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/asasdawd/62b08871bc186/
+      headers:
+        Host: sg-lb.sshkit.org
+    udp: true
+  - name: sg-lb.sshkit.org 2
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/asasdwasdasd/62b0888c16521/
+      headers:
+        Host: sg-lb.sshkit.org
+    udp: true
