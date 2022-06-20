@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
-  - name: sg-lb.sshkit.org
+  - name: sg-lb
     server: cdn.onlymega.com
     port: 443
     type: vmess
