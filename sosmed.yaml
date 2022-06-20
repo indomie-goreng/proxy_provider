@@ -3,14 +3,14 @@ proxies:
     server: api.fastworldpay.com
     port: 443
     type: trojan
-    password: c953f620-e8d8-11ec-b236-225401db9d57
+    password: 76351110-f097-11ec-b746-1239d0255272
     skip-cert-verify: true
-    sni: sg-ovh.tjvpn.org
+    sni: idtj-ikd.bonds.id
     network: ws
     ws-opts:
-      path: /fastssh
+      path: /howdy
       headers:
-        Host: sg-ovh.tjvpn.org
+        Host: idtj-ikd.bonds.id
     udp: true
   - name: id-lb.sshkit.org
     server: cdn.onlymega.com
@@ -27,32 +27,6 @@ proxies:
       path: /sshkit/issska/62a72ff0200fc/
       headers:
         Host: id-lb.sshkit.org
-    udp: true
-  - name: cdn.onlymega.com
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: 7e949420-eb18-11ec-b938-225401db9d57
-    skip-cert-verify: true
-    sni: id-1.tjvpn.org
-    network: ws
-    ws-opts:
-      path: /fastssh
-      headers:
-        Host: id-1.tjvpn.org
-    udp: true
-  - name: cdn.onlymega.com
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: fc437ec0-eb18-11ec-95f4-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-tifa.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-tifa.bonds.id
     udp: true
   - name: id-lb.sshkit.org
     server: cdn.onlymega.com
