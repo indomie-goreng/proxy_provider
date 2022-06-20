@@ -1,0 +1,32 @@
+proxies:
+  - name: sg1-v2ray.sshkit.org
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/34336484/628c26306adbe/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: sshocean-kopi13
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 468caed8-2601-448f-aff3-78968a33b6fa
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ws.xvless.xyz
+    udp: true
