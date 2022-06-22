@@ -47,3 +47,18 @@ proxies:
       headers:
         Host: sg-lb.sshkit.org
     udp: true
+  - name: sshoce
+    server: sg3-ws.xvless.xyz
+    port: 443
+    type: vless
+    uuid: 7e7bf591-a29b-49dc-ae8b-a7d51d75f8fe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdn.onlymega.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg3-ws.xvless.xyz
+    udp: true
