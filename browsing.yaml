@@ -1,19 +1,18 @@
 proxies:
-  - name: id4.securev2ray.com
-    server: cdn.onlymega.com
+  - name: sshocean-kopiaaa
+    server: sg3-ws.xvless.xyz
     port: 443
-    type: vmess
-    uuid: ac8f85ae-df0a-453f-b393-66eff9f60f5a
-    alterId: 0
+    type: vless
+    uuid: 7e7bf591-a29b-49dc-ae8b-a7d51d75f8fe
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id4.securev2ray.com
+    servername: cdn.onlymega.com
     network: ws
     ws-opts:
-      path: /sshocean
+      path: /websocket
       headers:
-        Host: id4.securev2ray.com
+        Host: sg3-ws.xvless.xyz
     udp: true
   - name: sg-lb.sshkit.org
     server: cdn.onlymega.com
