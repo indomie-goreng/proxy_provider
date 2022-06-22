@@ -1,5 +1,5 @@
 proxies:
-  - name: sshocean-kopiaaa
+  - name: sshoce
     server: sg3-ws.xvless.xyz
     port: 443
     type: vless
