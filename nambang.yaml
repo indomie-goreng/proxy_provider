@@ -15,3 +15,18 @@ proxies:
       headers:
         Host: cdn.onlymega.com
     udp: true
+  - name: sshoce
+    server: cdn.onlymega.com
+    port: 443
+    type: vless
+    uuid: 7e7bf591-a29b-49dc-ae8b-a7d51d75f8fe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg3-ws.xvless.xyz
+    udp: true
