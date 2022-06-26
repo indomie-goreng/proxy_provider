@@ -14,8 +14,8 @@ proxies:
       headers:
         Host: sg3-ws.xvless.xyz
     udp: true
-  - name: sg-lb.sshkit.org
-    server: cdn.onlymega.com
+  - name: lms.uin-antasari.ac.id
+    server: lms.uin-antasari.ac.id
     port: 443
     type: vmess
     uuid: 6fea1649-425b-4092-bf53-29792152c925
