@@ -15,7 +15,7 @@ proxies:
         Host: sg3-ws.xvless.xyz
     udp: true
   - name: www.ukmindonesia.id
-    server: www.ukmindonesia.id
+    server: ir.deliveryhero.com
     port: 443
     type: vmess
     uuid: 6fea1649-425b-4092-bf53-29792152c925
