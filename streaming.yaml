@@ -1,5 +1,5 @@
 proxies:
-  - name: sg-lb.sshkit.org
+  - name: id-lb.sshkit.org
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -8,57 +8,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    servername: id-lb.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/bodin2asdw/62b06b26f17d7/
+      path: /sshkit/Mbuh1/62bba78e71f64/
       headers:
-        Host: sg-lb.sshkit.org
-    udp: true
-  - name: sg-lb.sshkit.org
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/asasdawd/62b08871bc186/
-      headers:
-        Host: sg-lb.sshkit.org
-    udp: true
-  - name: sg-lb.sshkit.org 2
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/asasdwasdasd/62b0888c16521/
-      headers:
-        Host: sg-lb.sshkit.org
-    udp: true
-  - name: sshoce
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: 7e7bf591-a29b-49dc-ae8b-a7d51d75f8fe
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg3-ws.xvless.xyz
+        Host: id-lb.sshkit.org
     udp: true
