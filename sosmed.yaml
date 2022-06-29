@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
-  - name: sg-lb
+  - name: id-lb.sshkit.org
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -21,10 +21,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    servername: id-lb.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/Kopiasdaw/62b06da125d96/
+      path: /sshkit/Kopig/62bc219d40ff4/
       headers:
-        Host: sg-lb.sshkit.org
+        Host: id-lb.sshkit.org
     udp: true
