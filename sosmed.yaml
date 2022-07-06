@@ -12,8 +12,6 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
-  - name: id-lb.sshkit.org
-    server: cdn.onlymega.com
   - name: sg-lb.sshkit.org
     server: cdn.onlymega.com
     port: 443
