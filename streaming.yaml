@@ -1,5 +1,5 @@
 proxies:
-  - name: sg-lb.sshkit.org
+  - name: id-lb.sshkit.org
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -8,14 +8,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    servername: id-lb.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/Duasatu/62c561c2484e5/
+      path: /sshkit/bodin2aa/62cbf5cd53d2f/
       headers:
-        Host: sg-lb.sshkit.org
+        Host: id-lb.sshkit.org
     udp: true
-  - name: sg-lb.sshkit.org
+  - name: id-lb.sshkit.org 2
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -24,14 +24,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    servername: id-lb.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/duadua2/62c562f572bb2/
+      path: /sshkit/bodin2aaa/62cbf5f1e8cf7/
       headers:
-        Host: sg-lb.sshkit.org
+        Host: id-lb.sshkit.org
     udp: true
-  - name: sg-lb.sshkit.org 2
+  - name: id-lb.sshkit.org 3
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -40,10 +40,26 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    servername: id-lb.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/duadua23/62c563777585a/
+      path: /sshkit/bodin2aaaaa/62cbf6daa3b82/
       headers:
-        Host: sg-lb.sshkit.org
+        Host: id-lb.sshkit.org
+    udp: true
+  - name: id-lb.sshkit.org 4
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-lb.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/bodin2aaaaaaaa/62cbf74c93f9f/
+      headers:
+        Host: id-lb.sshkit.org
     udp: true
