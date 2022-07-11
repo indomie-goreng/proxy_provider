@@ -1,5 +1,5 @@
 proxies:
-  - name: sg-lb.sshkit.org 2
+  - name: id-lb.sshkit.org
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -8,10 +8,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    servername: id-lb.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/duadua23/62c563777585a/
+      path: /sshkit/asadasda/62cc2794436fe/
       headers:
-        Host: sg-lb.sshkit.org
+        Host: id-lb.sshkit.org
     udp: true
