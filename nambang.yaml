@@ -1,32 +1,16 @@
 proxies:
-  - name: sg1-v2ray.sshkit.org
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-v2ray.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/34336484/62b515d73d98b/
-      headers:
-        Host: cdn.onlymega.com
-    udp: true
-  - name: sshoce
-    server: cdn.onlymega.com
+  - name: sshocean-bodinzxcsv
+    server: ww.web.whatsapp.com
     port: 443
     type: vless
-    uuid: 7e7bf591-a29b-49dc-ae8b-a7d51d75f8fe
+    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg3-ws.xvless.xyz
+    servername: id2.v2vless.xyz
     network: ws
     ws-opts:
-      path: /websocket
+      path: /vless
       headers:
-        Host: sg3-ws.xvless.xyz
+        Host: id2.v2vless.xyz
     udp: true
