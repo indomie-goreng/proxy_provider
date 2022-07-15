@@ -28,3 +28,18 @@ proxies:
       headers:
         Host: id-lb.sshkit.org
     udp: true
+  - name: id-lb.sshkit.org 3
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-lb.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/bodin2aaaaa/62cbf6daa3b82/
+      headers:
+        Host: id-lb.sshkit.org
