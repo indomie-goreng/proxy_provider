@@ -76,3 +76,18 @@ proxies:
       headers:
         Host: id2.v2vless.xyz
     udp: true
+  - name: ionline.uc.edu
+    server: ionline.uc.edu
+    port: 443
+    type: vless
+    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id2.v2vless.xyz
+    udp: true
