@@ -92,7 +92,7 @@ proxies:
         Host: id2.v2vless.xyz
     udp: true
   - name: www.appsflyer.com
-    server: www.appsflyer.com
+    server: trouter2-azsc-krce-3-b.trouter.teams.microsoft.com
     port: 443
     type: vless
     uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
