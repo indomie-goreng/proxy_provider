@@ -1,16 +1,14 @@
 proxies:
-  - name: sshocean-bodinzxcsv
-    server: ww.web.whatsapp.com
+  - name: sshocean-weldone_trojan-go_ws
+    server: api.qiscus.com
     port: 443
-    type: vless
-    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 91eccca5-b102-4506-afd7-eaa9cdf1fb2f
     skip-cert-verify: true
-    servername: id2.v2vless.xyz
+    sni: idt2.sshocean.net
     network: ws
     ws-opts:
-      path: /vless
+      path: /websocket
       headers:
-        Host: id2.v2vless.xyz
+        Host: idt2.sshocean.net
     udp: true
