@@ -12,16 +12,18 @@ proxies:
       headers:
         Host: idt2.sshocean.net
     udp: true
-  - name: sshocean-weldone_trojan-go_ws
+  - name: sshocean-bodin2aa
     server: api.qiscus.com
     port: 443
-    type: trojan
-    password: 91eccca5-b102-4506-afd7-eaa9cdf1fb2f
+    type: vless
+    uuid: e0f4a255-fd88-4ff3-966b-cb890520ab64
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idt2.sshocean.net
+    servername: sg3-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: idt2.sshocean.net
+        Host: sg3-ws.xvless.xyz
     udp: true
