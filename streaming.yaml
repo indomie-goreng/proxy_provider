@@ -43,3 +43,19 @@ proxies:
       headers:
         Host: idv-3.openv2ray.com
     udp: true
+  - name: jupitervpn-bodin2a
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 79a73a1f-26c6-40f9-bd75-428bbe071538
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg6.jupitervpn.me
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: sg6.jupitervpn.me
+    udp: true
