@@ -1,108 +1,16 @@
 proxies:
-  - name: id-lb.sshkit.org
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/bodin2aa/62cbf5cd53d2f/
-      headers:
-        Host: id-lb.sshkit.org
-    udp: true
-  - name: id-lb.sshkit.org 2
-    server: w5.web.whatsapp.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/bodin2aaa/62cbf5f1e8cf7/
-      headers:
-        Host: id-lb.sshkit.org
-    udp: true
-  - name: sshocean-bodinzxcsv
-    server: cdn.onlymega.com
+  - name: sshocean-bodin6f
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
+    uuid: e0f4a255-fd88-4ff3-966b-cb890520ab64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2.v2vless.xyz
+    servername: sg3-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /vless
+      path: /websocket
       headers:
-        Host: id2.v2vless.xyz
-    udp: true
-  - name: sshocean-bodinzxcsv
-    server: web.web.whatsapp.com
-    port: 443
-    type: vless
-    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id2.v2vless.xyz
-    udp: true
-  - name: sshocean-bodinzxcsv
-    server: ww.web.whatsapp.com
-    port: 443
-    type: vless
-    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id2.v2vless.xyz
-    udp: true
-  - name: ionline.uc.edu
-    server: ionline.uc.edu
-    port: 443
-    type: vless
-    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id2.v2vless.xyz
-    udp: true
-  - name: www.appsflyer.com
-    server: trouter2-azsc-krce-3-b.trouter.teams.microsoft.com
-    port: 443
-    type: vless
-    uuid: 92b1d60d-09c2-430f-9ff7-d587e5f0265e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id2.v2vless.xyz
+        Host: sg3-ws.xvless.xyz
     udp: true
