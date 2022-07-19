@@ -39,7 +39,7 @@ proxies:
     servername: idv-3.openv2ray.com
     network: ws
     ws-opts:
-      path: /u/bodin2a
+      path: /u/opentunnel.net-bodin2a
       headers:
         Host: idv-3.openv2ray.com
     udp: true
