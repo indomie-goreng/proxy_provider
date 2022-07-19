@@ -12,7 +12,6 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
-proxies:
   - name: sshocean-weldone_trojan-go_ws
     server: api.qiscus.com
     port: 443
