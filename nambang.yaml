@@ -1,33 +1,14 @@
 proxies:
-  - name: sg-lb.sshkit.org
+  - name: sshocean-weldone_trojan-go_ws
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 91eccca5-b102-4506-afd7-eaa9cdf1fb2f
     skip-cert-verify: true
-    servername: sg-lb.sshkit.org
+    sni: idt2.sshocean.net
     network: ws
     ws-opts:
-      path: /sshkit/asdasdsad/62d81b5eda2e6/
+      path: /websocket
       headers:
-        Host: sg-lb.sshkit.org
-    udp: true
-  - name: id-lb.sshkit.org
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/asdasdadasdasd/62d81e5132110/
-      headers:
-        Host: id-lb.sshkit.org
+        Host: idt2.sshocean.net
     udp: true
