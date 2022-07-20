@@ -1,17 +1,4 @@
 proxies:
-  - name: sg3go.ipservers.xyz
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: jagoanssh-bodin2a1
-    skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg3go.ipservers.xyz
-    udp: true
   - name: cdn.onlymega.com
     server: cdn.onlymega.com
     port: 443
