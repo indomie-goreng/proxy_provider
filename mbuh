@@ -129,7 +129,7 @@ proxies:
     servername: sgv-6.openv2ray.com
     network: ws
     ws-opts:
-      path: /opentunnel?user=opentunnel.net-bodin2aa
+      path: /u/opentunnel.net-bodin2aa
       headers:
         Host: sgv-6.openv2ray.com
     udp: true
