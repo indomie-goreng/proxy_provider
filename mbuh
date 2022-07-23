@@ -25,21 +25,6 @@ proxies:
       headers:
         Host: sg6-trojan.bonds.id
     udp: true
-  - name: sshocean-bodin6f
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: e0f4a255-fd88-4ff3-966b-cb890520ab64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg3-ws.xvless.xyz
-    udp: true
   - name: sshocean-weldone_trojan-go_ws
     server: api.qiscus.com
     port: 443
@@ -68,38 +53,6 @@ proxies:
       path: /u/opentunnel.net-bodin2a
       headers:
         Host: idv-3.openv2ray.com
-    udp: true
-  - name: jupitervpn-bodin2a
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 79a73a1f-26c6-40f9-bd75-428bbe071538
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg6.jupitervpn.me
-    network: ws
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: sg6.jupitervpn.me
-    udp: true
-  - name: sg-lb.sshkit.org
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/asdasdsad/62d81b5eda2e6/
-      headers:
-        Host: sg-lb.sshkit.org
     udp: true
   - name: id-lb.sshkit.org
     server: cdn.onlymega.com
