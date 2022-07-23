@@ -107,3 +107,34 @@ proxies:
       headers:
         Host: sg1.v2-ray.com
     udp: true
+  - name: sshocean-aasawsda
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 328c031d-98a3-420f-814b-9a4f7cd59ceb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg3-ws.xvless.xyz
+    udp: true
+  - name: sg3.v2-ray.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.v2-ray.com
+    network: ws
+    ws-opts:
+      path: /fastssh/aswasd/62dc254a8fe16/
+      headers:
+        Host: sg3.v2-ray.com
+    udp: true
