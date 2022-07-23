@@ -117,3 +117,34 @@ proxies:
       headers:
         Host: id-lb.sshkit.org
     udp: true
+  - name: opentunnel.net-bodin2aa
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgv-6.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-bodin2aa
+      headers:
+        Host: sgv-6.openv2ray.com
+    udp: true
+  - name: sshocean-bodin2aaaa
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: c81092f2-3740-461d-baa9-17b7ac0cafe0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id2.v2vless.xyz
+    udp: true
