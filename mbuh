@@ -28,22 +28,6 @@ proxies:
       headers:
         Host: idv-3.openv2ray.com
     udp: true
-  - name: id-lb.sshkit.org
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/asdasdadasdasd/62d81e5132110/
-      headers:
-        Host: id-lb.sshkit.org
-    udp: true
   - name: opentunnel.net-bodin2aa
     server: api.qiscus.com
     port: 443
