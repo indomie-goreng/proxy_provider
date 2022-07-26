@@ -1,48 +1,31 @@
 proxies:
-  - name: sshocean-weldone_trojan-go_ws
-    server: api.qiscus.com
+  - name: sshocean-bodin2aaaa_trojan_ws
+    server: sgt3.sshocean.net
     port: 443
     type: trojan
-    password: 91eccca5-b102-4506-afd7-eaa9cdf1fb2f
+    password: b490196e-330a-4a71-847e-6137f45cab83
     skip-cert-verify: true
-    sni: idt2.sshocean.net
+    sni: api.qiscus.com
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: idt2.sshocean.net
+        Host: sgt3.sshocean.net
     udp: true
-  - name: opentunnel.net-bodin2a
+  - name: sshocean-bodin2aaas
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
+    type: vless
+    uuid: 2f83985b-5e6b-445a-8cc8-880d85f573e1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idv-3.openv2ray.com
+    servername: sg3-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /u/opentunnel.net-bodin2a
+      path: /websocket
       headers:
-        Host: idv-3.openv2ray.com
-    udp: true
-  - name: opentunnel.net-bodin2aa
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgv-6.openv2ray.com
-    network: ws
-    ws-opts:
-      path: /u/opentunnel.net-bodin2aa
-      headers:
-        Host: sgv-6.openv2ray.com
+        Host: sg3-ws.xvless.xyz
     udp: true
   - name: sshocean-bodin2aaaa
     server: api.qiscus.com
