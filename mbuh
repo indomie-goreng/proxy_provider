@@ -1,11 +1,11 @@
 proxies:
   - name: sshocean-bodin2aaaa_trojan_ws
-    server: sgt3.sshocean.net
+    server: api.qiscus.com
     port: 443
     type: trojan
     password: b490196e-330a-4a71-847e-6137f45cab83
     skip-cert-verify: true
-    sni: api.qiscus.com
+    sni: sgt3.sshocean.net
     network: ws
     ws-opts:
       path: /websocket
