@@ -27,54 +27,6 @@ proxies:
       headers:
         Host: sg3-ws.xvless.xyz
     udp: true
-  - name: sg3.v2-ray.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3.v2-ray.com
-    network: ws
-    ws-opts:
-      path: /fastssh/kopiaaabb/62dbf77ccabb0/
-      headers:
-        Host: sg3.v2-ray.com
-    udp: true
-  - name: sg1.v2-ray.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 656793c4-32ee-4caf-a393-6a9cc29d0d85
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1.v2-ray.com
-    network: ws
-    ws-opts:
-      path: /fastssh/kopiaaa1/62dbf884b3091/
-      headers:
-        Host: sg1.v2-ray.com
-    udp: true
-  - name: sg3.v2-ray.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3.v2-ray.com
-    network: ws
-    ws-opts:
-      path: /fastssh/aswasd/62dc254a8fe16/
-      headers:
-        Host: sg3.v2-ray.com
-    udp: true
   - name: sshocean-satu1
     server: api.qiscus.com
     port: 443
