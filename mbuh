@@ -1,32 +1,4 @@
 proxies:
-  - name: sshocean-bodin2aaaa_trojan_ws
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: b490196e-330a-4a71-847e-6137f45cab83
-    skip-cert-verify: true
-    sni: sgt3.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt3.sshocean.net
-    udp: true
-  - name: sshocean-bodin2aaas
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 2f83985b-5e6b-445a-8cc8-880d85f573e1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg3-ws.xvless.xyz
-    udp: true
   - name: sshocean-satu1
     server: api.qiscus.com
     port: 443
