@@ -1,91 +1,16 @@
 proxies:
-  - name: sshocean-bodin2aa
+  - name: sshocean-satu1
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: deee1af2-4172-4a91-a8f0-2442592e0272
+    uuid: 9da637e4-6de5-489d-9bba-2ec0a817e5bc
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg4-ws.xvless.xyz
+    servername: sgovh1-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: sg4-ws.xvless.xyz
-    udp: true
-  - name: sshocean-bodin2a
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: b434660d-067c-440b-a234-0167dbb16430
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg2-ws.xvless.xyz
-    udp: true
-  - name: sshocean-kopiaaa
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: d8d9b5dc-bb41-4331-8cb2-4d63dd6fc1bb
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg3-ws.xvless.xyz
-    udp: true
-  - name: sshocean-bodin2aqqq
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 85a4cd6d-7e5e-4af1-bd89-52df91a7019b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg4-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg4-ws.xvless.xyz
-    udp: true
-  - name: sshocean-bodin2aasasd
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: ef117a12-0cd1-4c49-bee5-78b141ecc6bb
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg5-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg5-ws.xvless.xyz
-    udp: true
-  - name: sshocean-kopiaaaasda
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: f55ae239-c1e0-49b3-8a3f-4beac6eb5bd0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg6-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg6-ws.xvless.xyz
+        Host: sgovh1-ws.xvless.xyz
     udp: true
