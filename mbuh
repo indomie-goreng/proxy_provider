@@ -29,3 +29,48 @@ proxies:
       headers:
         Host: id6-ws.xvless.xyz
     udp: true
+  - name: sshocean-223
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: b175bd82-6963-498f-80ab-9b5fbdddd920
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id6-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id6-ws.xvless.xyz
+    udp: true
+  - name: sshocean-234
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 18681e83-9730-4627-925d-a4bf735a30fe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id5-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id5-ws.xvless.xyz
+    udp: true
+  - name: sshocean-2345
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: e34d18f3-604f-4cf3-ba36-e8a714e30887
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id3-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id3-ws.xvless.xyz
+    udp: true
