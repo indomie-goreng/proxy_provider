@@ -15,7 +15,7 @@ proxies:
         Host: sgovh1-ws.xvless.xyz
     udp: true
   - name: sshocean-bodin2a
-    server: api.qiscus.com
+    server: api.fastworldpay.com
     port: 443
     type: vless
     uuid: 219792c1-a0ed-408f-883d-93e59250f38b
