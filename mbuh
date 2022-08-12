@@ -1,18 +1,93 @@
 proxies:
-  - name: sshocean-satu1
+  - name: sshocean-1212
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 9da637e4-6de5-489d-9bba-2ec0a817e5bc
+    uuid: dd104cba-74c7-4a51-8c74-c9ba1aa50a5a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgovh1-ws.xvless.xyz
+    servername: id1-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: sgovh1-ws.xvless.xyz
+        Host: id1-ws.xvless.xyz
+    udp: true
+  - name: sshocean-12121
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: d7e2534c-0fe9-4250-8f5b-6f98ab759af3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id2-ws.xvless.xyz
+    udp: true
+  - name: sshocean-12112
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: a9b3e98b-498b-47bf-8664-608d1953c59a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id3-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id3-ws.xvless.xyz
+    udp: true
+  - name: sshocean-kopiaaa
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: c1cd89a3-ec67-4fd8-8733-3cd1c216769c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id4-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id4-ws.xvless.xyz
+    udp: true
+  - name: sshocean-12344
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: c703fd6f-b38b-48f8-a695-352d006d2b6a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id5-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id5-ws.xvless.xyz
+    udp: true
+  - name: sshocean-bodin2a123
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: d27744df-c761-47d0-899e-38b756d4ae49
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id6-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id6-ws.xvless.xyz
     udp: true
   - name: sshocean-bodin2a
     server: api.fastworldpay.com
