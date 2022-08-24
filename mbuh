@@ -1,19 +1,4 @@
 proxies:
-  - name: api.qiscus.com
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 02a7a318-3747-426a-8ac5-05e0b26c5140
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg8
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg8-ws.xvless.xyz
-    udp: true
   - name: sshocean-satu24442
     server: api.qiscus.com
     port: 443
