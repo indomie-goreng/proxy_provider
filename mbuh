@@ -7,8 +7,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg7-ws.xvless.xyz#sshocean-satu2344-ws.xvless.xyz
-    network: ws
+    servername: sg7-ws.xvless.xyz
     ws-opts:
       path: /websocket
       headers:
