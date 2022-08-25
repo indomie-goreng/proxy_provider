@@ -1,18 +1,4 @@
 proxies:
-  - name: sshocean-satu24442
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: b13789a1-f504-44a1-89c5-126bb3121c59
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg7-ws.xvless.xyz
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg7-ws.xvless.xyz
-    udp: true
   - name: sshocean-satu2444
     server: cdn.onlymega.com
     port: 443
