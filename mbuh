@@ -1,9 +1,39 @@
 proxies:
-  - name: sshocean-satu2444
-    server: cdn.onlymega.com
+  - name: sshocean-bodin6
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: bf5b969f-6874-4b83-bb5e-f131b18105bf
+    uuid: 2cb3e2d2-b2f6-4fab-ab20-91c1d4142a39
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg8-ws.xvless.xyz
+    udp: true
+  - name: sshocean-asdsadw
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: e529d805-bff2-4cbc-ac0b-44130b0dc2fe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg7-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg7-ws.xvless.xyz
+    udp: true
+  - name: sshocean-satu2
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: ab7e0e6b-8885-437a-912e-4acafbc3a41b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -14,11 +44,11 @@ proxies:
       headers:
         Host: sg6-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2344
-    server: api.fastworldpay.com
+  - name: sshocean-aasawsda
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: c869ea82-e30c-4c84-841d-f4eb82aaa4b3
+    uuid: a7fe6d8f-bec6-4a15-b41a-eea240fcfd16
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,26 +59,11 @@ proxies:
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu223
-    server: api.qiscus.com
+  - name: sshocean-dasdawds
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 71113291-09b7-4e75-9f50-f0a1fa7d30fb
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg4-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg4-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu22
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: d70d5037-23f1-4927-bcec-a455975e9638
+    uuid: 64eb0931-fe68-4a9c-a186-17e9e12d62ec
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -59,11 +74,11 @@ proxies:
       headers:
         Host: sg3-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2
-    server: api.qiscus.com
+  - name: sshocean-adminasd
+    server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 18eedefb-0341-443a-a3a0-c68f8b2d72d5
+    uuid: ba8f4693-170f-45a5-88b1-cbaf7ffe8070
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -73,4 +88,34 @@ proxies:
       path: /websocket
       headers:
         Host: sg2-ws.xvless.xyz
+    udp: true
+  - name: sshocean-bodin2a
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 70d4fac1-9de2-4fd9-8f60-c288caec4f85
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ws.xvless.xyz
+    udp: true
+  - name: sshocean-12112
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: d9b4bde9-7c00-4a33-8b81-deff07a42998
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgovh1-ws.xvless.xyz
     udp: true
