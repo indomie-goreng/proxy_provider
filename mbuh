@@ -89,3 +89,63 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
+ - name: sshocean-bodin2a
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: bf72d955-6fa5-469a-a725-905fdf1610da
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg6-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg6-ws.xvless.xyz
+    udp: true
+  - name: sshocean-kopiaaa
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: b88684b9-98d8-49be-9fb3-f8c619013767
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg7-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg7-ws.xvless.xyz
+    udp: true
+  - name: sshocean-satu2
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: e045f4bf-e474-43e2-9b4a-c3de9a68b916
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg8-ws.xvless.xyz
+    udp: true
+  - name: sshocean-bodin2a1
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 843afdea-4a5c-4597-98b3-89725f6c7229
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg5-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg5-ws.xvless.xyz
+    udp: true
