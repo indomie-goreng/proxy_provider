@@ -89,7 +89,7 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
- - name: sshocean-bodin2a
+  - name: sshocean-bodin2a
     server: api.qiscus.com
     port: 443
     type: vless
