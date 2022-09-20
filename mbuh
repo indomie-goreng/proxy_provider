@@ -149,3 +149,18 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
+  - name: sg2.vless.co
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2.vless.co
+    network: ws
+    ws-opts:
+      path: /fastssh/bodin2a/6329b4268bd95/
+      headers:
+        Host: sg2.vless.co
+    udp: true
