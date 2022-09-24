@@ -119,21 +119,6 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2asd
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 606f25ee-0602-4ebc-86d3-3325096374f7
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2-ctb-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg2-ctb-ws.xvless.xyz
-    udp: true
   - name: sshocean-aasdwdsda
     server: api.qiscus.com
     port: 443
