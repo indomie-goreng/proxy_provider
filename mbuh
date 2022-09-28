@@ -1,4 +1,4 @@
-Yaproxies:
+proxies:
   - name: sshocean-bodin2a1asd
     server: api.qiscus.com
     port: 443
@@ -164,7 +164,7 @@ Yaproxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
-- name: api.qiscus.com
+  - name: api.qiscus.com
     server: api.qiscus.com
     port: 443
     type: trojan
