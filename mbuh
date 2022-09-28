@@ -1,4 +1,4 @@
-proxies:
+Yaproxies:
   - name: sshocean-bodin2a1asd
     server: api.qiscus.com
     port: 443
@@ -163,4 +163,17 @@ proxies:
       path: /websocket
       headers:
         Host: sg1-ctb-ws.xvless.xyz
+    udp: true
+- name: api.qiscus.com
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 4e779e40-3f4a-11ed-8a4d-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-ikd.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-ikd.bonds.id
     udp: true
