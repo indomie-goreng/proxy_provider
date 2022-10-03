@@ -1,158 +1,4 @@
-proxies:
-  - name: sshocean-satu2r
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: 59d28ca1-d7c0-4fa5-a22c-ef4b35894608
-    tls: true
-    servername: sg8-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg8-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: edabd1fa-ed6a-4f38-9f91-1543dacbfbe1
-    tls: true
-    servername: sg7-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg7-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu2
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 1dc74165-a2a1-400c-96c3-2e36cb66951e
-    tls: true
-    servername: sg6-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: "%2Fwebsocket"
-      headers:
-        Host: sg6-ws.xvless.xyz
-    udp: true
-  - name: sshocean-kopiaaaq
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: 774f6b1f-967f-4089-8c04-b18b65964b23
-    tls: true
-    servername: sg5-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg5-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu2w
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 4edc3f99-5746-4809-acf6-c62d9fcffe9c
-    tls: true
-    servername: sg4-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg4-ws.xvless.xyz
-    udp: true
-  - name: sshocean-andez
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: 240d85ed-452f-4d83-b3dc-a8d77207c9f8
-    tls: true
-    servername: sg3-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg3-ws.xvless.xyz
-    udp: true
-  - name: sshocean-bodin2a1
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: c15fa2e2-52d0-4edf-a1ab-cfff6f7f4730
-    tls: true
-    servername: sg2-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg2-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu2 2
-    server: api.fastworldpay.com
-    port: 443
-    type: vless
-    uuid: 7e5f1bce-c264-4aef-bce3-26c3c55a6a4a
-    tls: true
-    servername: sg1-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg1-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu2w 2
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 1de61ddf-1f28-42b0-b101-e2c5bcaeea79
-    tls: true
-    servername: sgovh1-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: "%2Fwebsocket"
-      headers:
-        Host: sgovh1-ws.xvless.xyz
-    udp: true
-  - name: sshocean-bodin2as
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: fa7cb604-3ee3-49a4-9152-af42e69a8892
-    tls: true
-    servername: sg2-ctb-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg2-ctb-ws.xvless.xyz
-    udp: true
-  - name: sshocean-bodin2aq
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 760b54f7-0c07-4e09-b85b-8e70ad3c100c
-    tls: true
-    servername: sg1-ctb-ws.xvless.xyz
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg1-ctb-ws.xvless.xyz
-    udp: true
+proxies::
   - name: api.qiscus.com
     server: api.qiscus.com
     port: 443
@@ -195,4 +41,20 @@ proxies:
       path: /websocket
       headers:
         Host: sg8-ws.xvless.xyz
+    udp: true
+  - name: sg-lb.vhax.net
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.vhax.net
+    network: ws
+    ws-opts:
+      path: /sshkit/Termos/633af4c1b5f86/
+      headers:
+        Host: sg-lb.vhax.net
     udp: true
