@@ -1,4 +1,4 @@
-proxies::
+proxies:
   - name: api.qiscus.com
     server: api.qiscus.com
     port: 443
