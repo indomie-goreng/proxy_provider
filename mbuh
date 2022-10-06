@@ -1,32 +1,4 @@
 proxies:
-  - name: api.qiscus.com
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 4e779e40-3f4a-11ed-8a4d-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-ikd.bonds.id
-    udp: true
-  - name: sshocean-bodin2ag
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: fa37ae3b-d8e1-4ec4-89ee-3bedbb9d0d0b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2-ctb-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg2-ctb-ws.xvless.xyz
-    udp: true
   - name: sshocean-qweqwewqe
     server: api.qiscus.com
     port: 443
@@ -177,21 +149,6 @@ proxies:
       path: /websocket
       headers:
         Host: sg1-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu22
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: 18e34766-a28e-46a9-b8d4-27052ce142ff
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgovh1-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgovh1-ws.xvless.xyz
     udp: true
   - name: sshocean-satu2 2
     server: api.qiscus.com
