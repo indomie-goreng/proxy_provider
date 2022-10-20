@@ -147,3 +147,35 @@ proxies:
       headers:
         Host: sg6-trojan.bonds.id
     udp: true
+  - name: sg2.v2-ray.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2.v2-ray.com
+    network: ws
+    ws-opts:
+      path: /fastssh/satu2/63513e5253969/
+      headers:
+        Host: sg2.v2-ray.com
+    udp: true
+  - name: sg-lb.vhax.net
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.vhax.net
+    network: ws
+    ws-opts:
+      path: /sshkit/satu2/63513eba2f464/
+      headers:
+        Host: sg-lb.vhax.net
+    udp: true
