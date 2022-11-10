@@ -120,7 +120,7 @@ proxies:
       headers:
         Host: sg-lb.vhax.net
     udp: true
-  - name: sg-lb.vhax.net
+  - name: game1
     server: api.qiscus.com
     port: 443
     type: vmess
