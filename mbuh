@@ -136,3 +136,16 @@ proxies:
       headers:
         Host: sg-lb.vhax.net
     udp: true
+  - name: sg1-trojan.bonds.id
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 440777f0-60e0-11ed-a131-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
