@@ -1,9 +1,24 @@
 proxies:
-  - name: sshocean-123244qw
+  - name: sshocean-bujang
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: d8a6d907-54d6-4193-96f5-e7d02d047081
+    uuid: cfc590d1-5c88-4006-8f30-688f649b97a4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg8-ws.xvless.xyz
+    udp: true
+  - name: sshocean-kompas2
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 49547d61-1632-48f1-b986-e7e71bc622c5
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -14,26 +29,26 @@ proxies:
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2wq
-    server: cdn.onlymega.com
+  - name: sshocean-bodin2aaasd
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 3050f25b-ac35-47b8-9bc8-79e7a3ca938e
+    uuid: be09caf3-dd03-4540-8222-a229e168c2d5
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg8-ws.xvless.xyz
+    servername: sg6-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: sg8-ws.xvless.xyz
+        Host: sg6-ws.xvless.xyz
     udp: true
-  - name: sshocean-bodin2a
+  - name: sshocean-12122qw
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: e9d81576-8895-4b60-bde7-27a656705038
+    uuid: e3eea4ce-c467-44ec-b092-05fd2deb7663
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -44,26 +59,56 @@ proxies:
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
-  - name: sshocean-12122
+  - name: sshocean-aasawsdaa
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 369d075b-443f-462d-9635-11ea2bbe5b5e
+    uuid: 91f7bd17-276f-47c2-a7fb-26c4e29a8792
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1-ws.xvless.xyz
+    servername: sg4-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: sg1-ws.xvless.xyz
+        Host: sg4-ws.xvless.xyz
     udp: true
-  - name: sshocean-12122 2
-    server: api.fastworldpay.com
+  - name: sshocean-bodin2a
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 6e5c9e23-45c5-461b-a257-77fa17640796
+    uuid: 16e5449c-ffc1-4da9-a948-84891b43bd96
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg2-ws.xvless.xyz
+    udp: true
+  - name: sshocean-duaya
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: a1d62382-b472-403e-a5a4-443d41ec61fe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg2-ctb-ws.xvless.xyz
+    udp: true
+  - name: sshocean-duasatu
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 9aedfdca-9576-4666-9aad-99dd8f47c07a
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -74,11 +119,11 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2w
+  - name: sshocean-duaratus
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 59af8188-dce6-4fe6-b980-d69b3a3a7ea2
+    uuid: a960e1d3-69bd-42a5-847d-f3f0b1e139d1
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -88,53 +133,6 @@ proxies:
       path: /websocket
       headers:
         Host: sg1-ctb-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu2w
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 34a34ff6-ccf1-4240-8990-180c109ce4e1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg8-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg8-ws.xvless.xyz
-    udp: true
-  - name: sg-lb.vhax.net
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.vhax.net
-    network: ws
-    ws-opts:
-      path: /sshkit/123244qw/63663029a7a75/
-      headers:
-        Host: sg-lb.vhax.net
-    udp: true
-  - name: game1
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.vhax.net
-    network: ws
-    ws-opts:
-      path: /sshkit/gameeee/636c46480c986/
-      headers:
-        Host: sg-lb.vhax.net
     udp: true
   - name: sg1-trojan.bonds.id
     server: api.qiscus.com
