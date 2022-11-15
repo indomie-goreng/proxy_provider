@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: idt3.sshocean.net
     udp: true
-  - name: api.qiscus.com
+  - name: api.qiscus
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -37,4 +37,20 @@ proxies:
       path: /howdy
       headers:
         Host: idtj-ikd.bonds.id
+    udp: true
+  - name: jagoanssh-12122-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: c9f50f85-3002-41d3-ad9f-7a3d1ddcde51
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg6.vmes.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg6.vmes.xyz
     udp: true
