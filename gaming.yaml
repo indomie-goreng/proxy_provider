@@ -1,14 +1,40 @@
 proxies:
-  - name: sshocean-weldone_trojan-go_ws
+  - name: sshocean-12122_trojan-go_ws
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 91eccca5-b102-4506-afd7-eaa9cdf1fb2f
+    password: 472bccce-05b3-4bdf-bb89-b67db376694a
     skip-cert-verify: true
-    sni: idt2.sshocean.net
+    sni: idt3.sshocean.net
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: idt2.sshocean.net
+        Host: idt3.sshocean.net
+    udp: true
+  - name: api.qiscus.com
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 5ea0a580-64cf-11ed-8ae6-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-herza.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-herza.bonds.id
+    udp: true
+  - name: api.qiscus.com 2
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 7cdcc950-64cf-11ed-96d1-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-ikd.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-ikd.bonds.id
     udp: true
