@@ -54,3 +54,16 @@ proxies:
       headers:
         Host: sg6.vmes.xyz
     udp: true
+  - name: gam4
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: f1dc9ba0-65ad-11ed-a256-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
