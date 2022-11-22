@@ -1,35 +1,9 @@
 proxies:
-  - name: sshocean-12122_trojan-go_ws
+  - name: api.qiscus.com
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 472bccce-05b3-4bdf-bb89-b67db376694a
-    skip-cert-verify: true
-    sni: idt3.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: idt3.sshocean.net
-    udp: true
-  - name: api.qiscus
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 5ea0a580-64cf-11ed-8ae6-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-herza.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-herza.bonds.id
-    udp: true
-  - name: api.qiscus.com 2
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 7cdcc950-64cf-11ed-96d1-1239d0255272
+    password: cb189480-6a45-11ed-9356-1239d0255272
     skip-cert-verify: true
     sni: idtj-ikd.bonds.id
     network: ws
@@ -38,32 +12,29 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
-  - name: jagoanssh-12122-JAGOANSSH
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: c9f50f85-3002-41d3-ad9f-7a3d1ddcde51
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg6.vmes.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: sg6.vmes.xyz
-    udp: true
-  - name: gam4
+  - name: api.qiscus.com 2
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: f1dc9ba0-65ad-11ed-a256-1239d0255272
+    password: d22152b0-6a45-11ed-bcf8-1239d0255272
     skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
+    sni: idtj-herza.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: sg2-trojan.bonds.id
+        Host: idtj-herza.bonds.id
+    udp: true
+  - name: api.qiscus.com 3
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: e785e810-6a45-11ed-b7cb-1239d0255272
+    skip-cert-verify: true
+    sni: sg-atha.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-atha.bonds.id
     udp: true
