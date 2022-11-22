@@ -54,3 +54,16 @@ proxies:
       headers:
         Host: sg-lb.vhax.net
     udp: true
+  - name: sshocean-satu2w_trojan-go_ws
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: dd77f7a5-cd69-4697-b912-e621109d3a7e
+    skip-cert-verify: true
+    sni: idt3.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: idt3.sshocean.net
+    udp: true
