@@ -38,3 +38,19 @@ proxies:
       headers:
         Host: sg-atha.bonds.id
     udp: true
+  - name: sg-lb.vhax.net
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.vhax.net
+    network: ws
+    ws-opts:
+      path: /sshkit/12122/637cbf6063a8b/
+      headers:
+        Host: sg-lb.vhax.net
+    udp: true
