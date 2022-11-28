@@ -112,3 +112,35 @@ proxies:
       headers:
         Host: sg-lb.vhax.net
     udp: true
+  - name: sg-lb.vhax.net
+    server: api.fastworldpay.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.vhax.net
+    network: ws
+    ws-opts:
+      path: /sshkit/aaaasdwdwsadasdas/6383ffa863814/
+      headers:
+        Host: sg-lb.vhax.net
+    udp: true
+  - name: sg1-v2ray.sshkit.org
+    server: api.fastworldpay.com
+    port: 443
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/34336484/6384005779c1b/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
