@@ -83,8 +83,8 @@ proxies:
       headers:
         Host: id-lb.vhax.net
     udp: true
-  - name: api.qiscus.com
-    server: api.qiscus.com
+  - name: api.qq
+    server: api.fastworldpay.com
     port: 443
     type: trojan
     password: 5285fc50-6df3-11ed-9d70-1239d0255272
