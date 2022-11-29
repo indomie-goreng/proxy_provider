@@ -203,3 +203,16 @@ proxies:
       headers:
         Host: sg-atha.bonds.id
     udp: true
+  - name: sshocean-satu2w_trojan-go_ws
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 2de5f583-07de-40a6-b180-00e305659e2f
+    skip-cert-verify: true
+    sni: ust2.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: ust2.sshocean.net
+    udp: true
