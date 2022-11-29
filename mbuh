@@ -9,7 +9,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg8-ws.xvless.xyz
     udp: true
@@ -23,7 +23,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
@@ -37,7 +37,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg6-ws.xvless.xyz
     udp: true
@@ -51,7 +51,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
@@ -65,7 +65,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg4-ws.xvless.xyz
     udp: true
@@ -79,7 +79,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "%2Fwebsocket"
+      path: /websocket
       headers:
         Host: sg3-ws.xvless.xyz
     udp: true
@@ -93,7 +93,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg2-ws.xvless.xyz
     udp: true
@@ -107,7 +107,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg1-ws.xvless.xyz
     udp: true
@@ -121,7 +121,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
@@ -135,7 +135,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
@@ -149,7 +149,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/websocket"
+      path: /websocket
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
