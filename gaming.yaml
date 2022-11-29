@@ -160,3 +160,17 @@ proxies:
       headers:
         Host: sg2-v2ray.sshkit.org
     udp: true
+  - name: sshocean-12345
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 3bcf1dc7-850b-4dc5-8c82-48809e7de605
+    tls: true
+    servername: sg8-ws.xvless.xyz
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg8-ws.xvless.xyz
+    udp: true
