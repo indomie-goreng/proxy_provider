@@ -216,3 +216,16 @@ proxies:
       headers:
         Host: ust2.sshocean.net
     udp: true
+  - name: 12
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 5a2d2100-7061-11ed-9592-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-ikd.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-ikd.bonds.id
+    udp: true
