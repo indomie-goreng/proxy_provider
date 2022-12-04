@@ -229,3 +229,19 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
+  - name: id-kompas
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-lb.vhax.net
+    network: ws
+    ws-opts:
+      path: /sshkit/kompas1/638bfe606e960/
+      headers:
+        Host: id-lb.vhax.net
+    udp: true
