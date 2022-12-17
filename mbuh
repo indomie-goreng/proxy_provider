@@ -1,9 +1,9 @@
 proxies:
-  - name: sshocean-aasawsda
-    server: cdn.onlymega.com
+  - name: sshocean-kopiaaa
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 32ffbd6a-d908-4efb-bdd5-f0e158ca8b89
+    uuid: a56c6c4f-ac7e-49b5-a13f-578563c1fb41
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -14,11 +14,11 @@ proxies:
       headers:
         Host: sg8-ws.xvless.xyz
     udp: true
-  - name: sshocean-bodin2ag
-    server: api.fastworldpay.com
+  - name: sshocean-kopiaaaa
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: b79c7739-3819-4144-8e11-76672f001cd6
+    uuid: 857b270c-78ea-4903-bc02-5ac11a0a38c4
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,11 +29,11 @@ proxies:
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
-  - name: sshocean-12344
-    server: api.qiscus.com
+  - name: sshocean-kopiaaaas
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 14299ddc-47d3-4f86-a7d9-5636ea9e8ec0
+    uuid: fff9db9d-f901-4f5b-aa5d-370b75a5a2ab
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -44,11 +44,11 @@ proxies:
       headers:
         Host: sg6-ws.xvless.xyz
     udp: true
-  - name: sshocean-qweqwewqe
-    server: api.qiscus.com
+  - name: sshocean-kopiaaaasda
+    server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 991864fe-62c3-45c3-8551-78acb9505e7d
+    uuid: 852a3015-3518-4646-9e65-ba75afaad327
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -59,11 +59,11 @@ proxies:
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
-  - name: sshocean-bodin2asa
+  - name: sshocean-kopiaaae
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: efd75d7c-e710-46de-88e6-ef0595c0136e
+    uuid: 0292e224-432e-4fdd-b7a6-40551600f07b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -74,11 +74,11 @@ proxies:
       headers:
         Host: sg4-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu22
+  - name: sshocean-kopiaaaq
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 930fc3ef-8014-4313-9a66-3c1990e9a9f2
+    uuid: c1d78a5f-5e06-425f-925b-b75707aab471
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -89,11 +89,11 @@ proxies:
       headers:
         Host: sg3-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2
+  - name: sshocean-bodin2a1
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: cc85ddfc-6e3e-404f-8975-028fa7691d66
+    uuid: 923d4fdc-e973-4af5-8f28-bf4e1b6fa853
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -104,11 +104,11 @@ proxies:
       headers:
         Host: sg2-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2344
+  - name: sshocean-bodin2a11
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 4ab38d5c-21ff-4244-90b6-a5f0fba2c4d4
+    uuid: d00d4836-8415-4125-8cfc-8c19435f2888
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -119,11 +119,11 @@ proxies:
       headers:
         Host: sg1-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2w1
-    server: api.fastworldpay.com
+  - name: sshocean-bodin2a1111
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: e00d67cc-c979-4abd-a8d2-7b9d4b35ac21
+    uuid: 1b4d6659-cb97-4ed2-9baa-96cd4f73aecb
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -134,11 +134,11 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2w11
-    server: api.qiscus.com
+  - name: sshocean-bodin2a111
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: be0ff0b2-3c1c-4099-9998-096e4e5df070
+    uuid: 3a356847-0ca8-49d3-84b5-a59ee38996ba
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -149,11 +149,11 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2344a
-    server: api.fastworldpay.com
+  - name: sshocean-bodin2a123
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 60182016-8c9f-4e44-8197-4278d8917f1d
+    uuid: 03f18f0e-205b-4306-83c2-6f8c8844fb8a
     cipher: auto
     tls: true
     skip-cert-verify: true
