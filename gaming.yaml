@@ -12,3 +12,16 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
+  - name: 🇸🇬 sg2go.ipservers.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: jagoanssh-Kopiaaa
+    skip-cert-verify: true
+    sni: sg2go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg2go.ipservers.xyz
+    udp: true
