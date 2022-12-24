@@ -1,25 +1,9 @@
 proxies:
-  - name: id-lb.vhax.net
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.vhax.net
-    network: ws
-    ws-opts:
-      path: /sshkit/12122/639686e4a963a/
-      headers:
-        Host: id-lb.vhax.net
-    udp: true
   - name: 🇺🇸 api.qiscus.com
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: a9fa9360-79be-11ed-b3d8-1239d0255272
+    password: bfcec1a0-835e-11ed-91c2-1239d0255272
     skip-cert-verify: true
     sni: idtj-ikd.bonds.id
     network: ws
