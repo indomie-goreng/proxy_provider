@@ -1,24 +1,9 @@
 proxies:
-  - name: sshocean-satu
+  - name: "[Vless] sshocean-satu1"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 12050e69-e601-4a7e-9072-7882918733bc
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-ctb-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg1-ctb-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu1
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: d59f8e6e-b050-42aa-85ad-d9386f3b6836
+    uuid: 6dd7f0d6-cd5b-4ef2-b64a-d4ac535165b6
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,26 +14,11 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu2
+  - name: "[Vless] sshocean-satu2"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 21355372-8b50-49bc-b080-844c61a54bcf
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgovh1-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgovh1-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu3
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: d6a3382a-a6a0-4ea0-b991-54ed142407bd
+    uuid: a9c571ba-a76e-4e1e-bb61-6ae726f4cd4b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -59,11 +29,11 @@ proxies:
       headers:
         Host: sg1-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu4
+  - name: "[Vless] sshocean-satu4"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: f92b0926-85f5-4811-b670-0d75ae443eac
+    uuid: 75a40eda-e28b-4df0-8ed8-cca6a259be2b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -74,11 +44,11 @@ proxies:
       headers:
         Host: sg2-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu5
-    server: api.qiscus.com
+  - name: "[Vless] sshocean-satu3"
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: ac657205-c03a-4c6f-aeb9-8fb83d9c091c
+    uuid: 6529fc00-b7f5-43e9-bd89-a9db9c9d1896
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -89,11 +59,11 @@ proxies:
       headers:
         Host: sg3-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu6
+  - name: "[Vless] sshocean-satu5"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: ff4caf93-c26e-4184-adb2-accb01549b39
+    uuid: 91f7bd17-276f-47c2-a7fb-26c4e29a8792
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -104,11 +74,11 @@ proxies:
       headers:
         Host: sg4-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu7
+  - name: "[Vless] sshocean-satu"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 116eb2e8-0e29-4340-92b1-9fde88491b7c
+    uuid: 48d9a592-c39b-43a1-819c-d11ccd89318f
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -119,11 +89,11 @@ proxies:
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu7 2
+  - name: "[Vless] sshocean-satu6"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 2df84b6e-88c2-4de4-b073-e7d80213965b
+    uuid: 860f50c3-f3b0-4789-ace2-a798c669058d
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -134,11 +104,11 @@ proxies:
       headers:
         Host: sg6-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu18
+  - name: "[Vless] sshocean-satu7"
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 47b6a27a-78a6-4b29-9861-c7fdbc6951db
+    uuid: bef0784a-706b-40c7-8abd-c1a003a7cee4
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -149,11 +119,11 @@ proxies:
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
-  - name: sshocean-satu19
-    server: cdn.onlymega.com
+  - name: "[Vless] sshocean-satu8"
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 9fba5cea-e863-4ebe-acc6-4d6176467f4a
+    uuid: ffe0165e-d387-4e5e-bf2e-a6e3ff457a8f
     cipher: auto
     tls: true
     skip-cert-verify: true
