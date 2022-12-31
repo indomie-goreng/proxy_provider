@@ -1,9 +1,9 @@
 proxies:
-  - name: 🇺🇸 api.qiscus.com
+  - name: "[Trojan] idtj-ikd.bonds.id"
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: bfcec1a0-835e-11ed-91c2-1239d0255272
+    password: 663a4e40-88c6-11ed-9943-1239d0255272
     skip-cert-verify: true
     sni: idtj-ikd.bonds.id
     network: ws
@@ -12,16 +12,16 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
-  - name: 🇸🇬 sg2go.ipservers.xyz
+  - name: "[Trojan] api.qiscus.com"
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: jagoanssh-Kopiaaa
+    password: 7ac87de0-88c6-11ed-a72c-1239d0255272
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    sni: idtj-herza.bonds.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /howdy
       headers:
-        Host: sg2go.ipservers.xyz
+        Host: idtj-herza.bonds.id
     udp: true
