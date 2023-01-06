@@ -40,3 +40,16 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
+  - name: "[Trojan] sshocean-kopiaaa_trojan_ws"
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: c74263e4-670f-40cc-96cf-dc5b1398b0ab
+    skip-cert-verify: true
+    sni: sgt3.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgt3.sshocean.net
+    udp: true
