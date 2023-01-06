@@ -66,3 +66,16 @@ proxies:
       headers:
         Host: ust2.sshocean.net
     udp: true
+  - name: id1go.ipservers.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: jagoanssh-Kopiaaa
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1go.ipservers.xyz
+    udp: true
