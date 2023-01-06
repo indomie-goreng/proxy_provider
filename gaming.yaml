@@ -25,3 +25,18 @@ proxies:
       headers:
         Host: idtj-herza.bonds.id
     udp: true
+  - name: "[Vless] sshocean-kopiaaaaa"
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: bb49c665-b4f7-45d7-8983-3e0903ffa1ac
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id2-ws.xvless.xyz
+    udp: true
