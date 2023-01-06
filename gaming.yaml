@@ -53,3 +53,16 @@ proxies:
       headers:
         Host: sgt3.sshocean.net
     udp: true
+  - name: "[Trojan] sshocean-bodin2a1a_trojan_ws"
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: ff753e95-f624-4a6f-8aff-dcdc3c53eaa8
+    skip-cert-verify: true
+    sni: ust2.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: ust2.sshocean.net
+    udp: true
