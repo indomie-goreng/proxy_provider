@@ -40,7 +40,7 @@ proxies:
       headers:
         Host: id2-ws.xvless.xyz
     udp: true
-      - name: "[Trojan] api.qiscus.com"
+  - name: "[Trojan] api.qiscus.com"
     server: api.qiscus.com
     port: 443
     type: trojan
