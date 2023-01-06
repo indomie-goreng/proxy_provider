@@ -145,16 +145,19 @@ proxies:
       headers:
         Host: sgt3.sshocean.net
     udp: true
-  - name: "[Trojan] sshocean-sepuluh_trojan_ws 2"
-    server: api.qiscus.com
+  - name: "[VMess] sg-lb.vhax.net"
+    server: cdn.onlymega.com
     port: 443
-    type: trojan
-    password: e4e6e3a6-78eb-49f0-9767-dbbef5843876
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgt3.sshocean.net
+    servername: sg-lb.vhax.net
     network: ws
     ws-opts:
-      path: /websocket
+      path: /sshkit/satu1/63b8615fbd932/
       headers:
-        Host: sgt3.sshocean.net
+        Host: sg-lb.vhax.net
     udp: true
