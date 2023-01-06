@@ -1,17 +1,4 @@
 proxies:
-  - name: "[Trojan] idtj-ikd.bonds.id"
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 663a4e40-88c6-11ed-9943-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-ikd.bonds.id
-    udp: true
   - name: "[Trojan] api.qiscus.com"
     server: api.qiscus.com
     port: 443
@@ -40,7 +27,7 @@ proxies:
       headers:
         Host: id2-ws.xvless.xyz
     udp: true
-  - name: "[Trojan] api.qiscus.com"
+  - name: "[Trojan] api.qiscus.com0"
     server: api.qiscus.com
     port: 443
     type: trojan
