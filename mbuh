@@ -3,7 +3,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: d1984ad5-d672-4ef9-8199-6a1a1a19af32
+    uuid: 564c29c4-cea0-4f0c-8565-e265c403db36
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -18,7 +18,7 @@ proxies:
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 2ec40b2b-46e1-45ac-a3b2-fada0ffff4b9
+    uuid: eeea3bbd-2776-4acd-9a35-a39accb5a640
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -33,7 +33,7 @@ proxies:
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: f0393f00-0645-4e7e-bfdd-7429705764f6
+    uuid: 6d4d970c-8bf4-4856-b203-e8d3433ccb08
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -48,7 +48,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 8cbee9b5-841c-4051-afd5-4e77cbc175b9
+    uuid: 4c48a7e6-08dc-41b6-a317-6a541f353647
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -63,7 +63,7 @@ proxies:
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: e1f7b45f-4528-4956-94c9-c8225947561c
+    uuid: 690b74f5-282b-4d72-8edd-82c007b16445
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -75,10 +75,10 @@ proxies:
         Host: sg2-ws.xvless.xyz
     udp: true
   - name: "[Vless] sshocean-enam"
-    server: api.qiscus.com
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: aee88403-290b-4651-aee4-00763774d82a
+    uuid: f18c2eb5-3aea-48e5-9558-5fe0c9cd7464
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -90,10 +90,10 @@ proxies:
         Host: sg3-ws.xvless.xyz
     udp: true
   - name: "[Vless] sshocean-tujuh"
-    server: cdn.onlymega.com
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 7a378292-7813-4099-8261-7a19fa40d2fc
+    uuid: 5d439ddf-f8c0-4fdc-9c61-d945ba762b0b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -105,10 +105,10 @@ proxies:
         Host: sg4-ws.xvless.xyz
     udp: true
   - name: "[Vless] sshocean-delapan"
-    server: cdn.onlymega.com
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: e9d81576-8895-4b60-bde7-27a656705038
+    uuid: 61b84b01-4b89-422f-a68a-bbdb7fae1bde
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -120,25 +120,10 @@ proxies:
         Host: sg5-ws.xvless.xyz
     udp: true
   - name: "[Vless] sshocean-sembilan"
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 924ac511-3cad-44d8-9812-91b45df143fd
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg6-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg6-ws.xvless.xyz
-    udp: true
-  - name: "[Vless] sshocean-sepuluh"
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 6b8b456a-59cf-4fb4-90b4-3e251276ac22
+    uuid: a907dd54-bd8a-45e0-88b0-0fc4bca2962e
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -149,11 +134,11 @@ proxies:
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-sebelas"
+  - name: "[Vless] sshocean-sepuluh"
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: f649e4e8-d2e8-440a-ac8e-606cf1be2d84
+    uuid: 69b8fb26-de7b-4e31-bbbf-8f0e415385af
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -163,43 +148,4 @@ proxies:
       path: /websocket
       headers:
         Host: sg8-ws.xvless.xyz
-    udp: true
-  - name: "[Trojan] sshocean-duaratus_trojan_ws"
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 42c00e6a-e9df-42a2-9519-5b6c317ca877
-    skip-cert-verify: true
-    sni: sgt2.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt2.sshocean.net
-    udp: true
-  - name: "[Trojan] sshocean-bodin1_trojan_ws"
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 2a371fe7-575a-4425-afdc-51d39f87353a
-    skip-cert-verify: true
-    sni: sgt3.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt3.sshocean.net
-    udp: true
-  - name: "[Trojan] sshocean-dasdawds_trojan_ws"
-    server: api.fastworldpay.com
-    port: 443
-    type: trojan
-    password: 8a247355-c966-46a0-a98d-ac3515810b3e
-    skip-cert-verify: true
-    sni: sgt4.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt4.sshocean.net
     udp: true
