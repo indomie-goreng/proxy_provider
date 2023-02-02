@@ -12,3 +12,19 @@ proxies:
       headers:
         Host: idtj-ikd.bonds.id
     udp: true
+  - name: v2ray1.udpgw.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: df2f146d-0e7d-4d73-ae62-8590d786d95c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray1.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray1.udpgw.com
+    udp: true
