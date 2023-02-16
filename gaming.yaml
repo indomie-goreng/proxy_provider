@@ -1,30 +1,17 @@
 proxies:
-  - name: api.qiscus.com
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: fd42f170-a2fd-11ed-bb8b-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-ikd.bonds.id
-    udp: true
-  - name: v2ray1.udpgw.com
+  - name: v2ray2.udpgw.com
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: df2f146d-0e7d-4d73-ae62-8590d786d95c
+    uuid: bc4d9e10-a2f9-4bc8-8f70-671a8b96db3b
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: v2ray1.udpgw.com
+    servername: v2ray2.udpgw.com
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: v2ray1.udpgw.com
+        Host: v2ray2.udpgw.com
     udp: true
