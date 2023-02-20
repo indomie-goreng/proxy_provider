@@ -1,9 +1,9 @@
 proxies:
-  - name: "[Vless] sshocean-satu"
+  - name: sshocean-satu
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 3a419158-d69c-493e-9bd1-e253645f9403
+    uuid: 20650d29-3af5-4ab0-aa12-663aff03df62
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -14,11 +14,11 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-dua"
+  - name: sshocean-dua
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 255173aa-c664-40e4-88e6-b63059ed10b7
+    uuid: 2423c732-5e13-4dbd-8ebf-6eecbb6a1c61
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,11 +29,11 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-tiga"
+  - name: sshocean-tiga
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 040dee19-191d-4a94-ad63-60b5662ee8ee
+    uuid: a2673acf-24b9-4cde-8291-5847de95532f
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -44,11 +44,26 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-empat"
+  - name: sshocean-empat
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 75526aa1-c726-4ec8-b2c6-e28fc38b3a1c
+    uuid: b18fc854-774c-4555-bbf9-ae2b92bb3a74
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ws.xvless.xyz
+    udp: true
+  - name: sshocean-lima
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 9f6a868f-aa08-4a14-a88e-c45903456c13
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -59,11 +74,26 @@ proxies:
       headers:
         Host: sg2-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-lima"
-    server: api.fastworldpay.com
+  - name: sshocean-enam
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 76c348bf-daa2-48ec-bb64-67569adce18b
+    uuid: 120a1338-2fcc-4ff6-9ff7-293d14b5c1cb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg3-ws.xvless.xyz
+    udp: true
+  - name: sshocean-tujuh
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 6dc73636-e17f-4c40-9ea0-dbfbf82e44c5
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -74,11 +104,11 @@ proxies:
       headers:
         Host: sg4-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-enam"
+  - name: sshocean-delapan
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 01746168-0e2d-4141-baae-051792e42197
+    uuid: 21bdd7a9-1b08-4ed5-a3cd-864065fcf0e1
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -89,11 +119,11 @@ proxies:
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-tujuh"
-    server: api.qiscus.com
+  - name: sshocean-sembilan
+    server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: ab7e0e6b-8885-437a-912e-4acafbc3a41b
+    uuid: 27be41d2-eb13-499e-9da0-4efc3b456828
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -104,11 +134,11 @@ proxies:
       headers:
         Host: sg6-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-delapan"
+  - name: sshocean-sepuluh
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 52f75f72-9f64-4ecd-a77d-cb105c2a0a9f
+    uuid: 3031eaf8-6437-4279-b679-7d3fe05b7c1c
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -119,11 +149,11 @@ proxies:
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
-  - name: "[Vless] sshocean-sembilan"
-    server: cdn.onlymega.com
+  - name: sshocean-sebelas
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 3ba5e0ed-ef5c-44f5-9d0b-c385876f3924
+    uuid: 049a1c8c-f6cc-4a29-97b3-73c13d195a39
     cipher: auto
     tls: true
     skip-cert-verify: true
