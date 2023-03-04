@@ -1,32 +1,32 @@
 proxies:
-  - name: v2ray2.udpgw.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: bc4d9e10-a2f9-4bc8-8f70-671a8b96db3b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray2.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray2.udpgw.com
-    udp: true
   - name: SG Vless-WS(2023-02-27)
-    server: sg3.socifiles.com
+    server: api.qiscus.com
     port: 443
     type: vless
     uuid: 01972280-b0e0-11ed-8012-1239d0255272
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: api.qiscus.com
+    servername: sg3.socifiles.coma
     network: ws
     ws-opts:
       path: /vlws
       headers:
-        Host: api.qiscus.com
+        Host: sg3.socifiles.com
+    udp: true
+  - name: SG+VMESS-WS(2023-03-11)
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 72ecdeb0-ba38-11ed-8a77-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg3.socifiles.com
     udp: true
