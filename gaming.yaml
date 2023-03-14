@@ -30,3 +30,32 @@ proxies:
       headers:
         Host: sg3.socifiles.com
     udp: true
+  - name: api.qiscus.com
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 563616c0-c1ff-11ed-a86f-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: v2ray2.udpgw.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 77529b84-d32a-476e-956c-c2952c73a4a9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray2.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray2.udpgw.com
+    udp: true
