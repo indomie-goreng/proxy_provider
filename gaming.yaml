@@ -59,7 +59,7 @@ proxies:
       headers:
         Host: v2ray2.udpgw.com
     udp: true
-  - name: api.qiscus.com
+  - name: apkhj
     server: cdn.onlymega.com
     port: 443
     type: trojan
