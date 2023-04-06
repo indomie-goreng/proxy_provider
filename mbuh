@@ -1,9 +1,84 @@
 proxies:
-  - name: sshocean-en
+  - name: sshocean-satu
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 6d8dcd1b-01fa-4549-bdc0-ed03ac96ae83
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg8-ws.xvless.xyz
+    udp: true
+  - name: sshocean-dua
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 3bbda977-f3a8-43ef-bb0c-ead49ca723f9
+    uuid: 49d4a68f-1295-4b4f-b5de-b291902be48e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg7-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg7-ws.xvless.xyz
+    udp: true
+  - name: sshocean-tiga
+    server: cdn.onlymega.com
+    port: 443
+    type: vless
+    uuid: 59ef4dee-ba7f-49d2-9464-721f65f75b6d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg6-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg6-ws.xvless.xyz
+    udp: true
+  - name: sshocean-empat
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 987ff25c-6043-4de0-926c-5047dc644647
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg5-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg5-ws.xvless.xyz
+    udp: true
+  - name: sshocean-lima
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 14fe29bb-1147-4a8d-a925-412a4df34fae
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg4-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg4-ws.xvless.xyz
+    udp: true
+  - name: sshocean-enam
+    server: cdn.onlymega.com
+    port: 443
+    type: vless
+    uuid: f3942e9e-82f6-47a3-b8a3-295a4140150c
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -15,10 +90,10 @@ proxies:
         Host: sg3-ws.xvless.xyz
     udp: true
   - name: sshocean-tujuh
-    server: api.qiscus.com
+    server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: ffe5c9c6-afca-4c36-b298-ec4db74876f4
+    uuid: 2ac49335-9c94-418e-be0d-ec617defce2f
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -30,10 +105,10 @@ proxies:
         Host: sg2-ws.xvless.xyz
     udp: true
   - name: sshocean-delapan
-    server: api.fastworldpay.com
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 70d4fac1-9de2-4fd9-8f60-c288caec4f85
+    uuid: 15938855-4aec-4617-8e00-5488d669f7dc
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -48,7 +123,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: d9b4bde9-7c00-4a33-8b81-deff07a42998
+    uuid: a9757ab6-a1bf-4cc4-b45c-bc413c7292de
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -63,7 +138,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 3038cb55-8e2d-43a2-84ea-85997e21962f
+    uuid: babf43c4-defb-4c4c-9869-bda051855c2e
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -75,10 +150,10 @@ proxies:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
   - name: sshocean-sebelas
-    server: api.fastworldpay.com
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: e14526c1-3cfc-46dd-bc75-e694db39257e
+    uuid: 3d74be24-3c83-4648-960e-6bbaa94b59a3
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -88,20 +163,4 @@ proxies:
       path: /websocket
       headers:
         Host: sg1-ctb-ws.xvless.xyz
-    udp: true
-  - name: sshocean-satu
-    server: api.fastworldpay.com
-    port: 443
-    type: vmess
-    uuid: 1eff4153-1ae7-42b4-9ad3-49d264e7b01e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgovh1.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sgovh1.v2rayserv.com
     udp: true
