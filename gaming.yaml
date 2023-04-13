@@ -12,21 +12,18 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
-  - name: v2ray2.udpgw.com
+  - name: api.qiscus.com1
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: 77529b84-d32a-476e-956c-c2952c73a4a9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: c2a1c370-d9a2-11ed-a0dd-1239d0255272
     skip-cert-verify: true
-    servername: v2ray2.udpgw.com
+    sni: sg2-trojan.bonds.id
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /howdy
       headers:
-        Host: v2ray2.udpgw.com
+        Host: sg2-trojan.bonds.id
     udp: true
   - name: apkhj
     server: cdn.onlymega.com
