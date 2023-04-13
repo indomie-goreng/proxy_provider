@@ -164,3 +164,18 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
+  - name: SG Vless-WS(2023-04-20)
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 26841840-d9ef-11ed-80a5-1239d0255272
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vlws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
