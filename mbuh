@@ -1,39 +1,24 @@
 proxies:
-  - name: sshocean-satu
-    server: api.qiscus.com
+  - name: sshocean-sebelas
+    server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: e9d04499-f077-46f3-b2ab-8e8f41921858
+    uuid: e9085764-3d37-4db2-857f-58764d044655
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1-ctb-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg1-ctb-ws.xvless.xyz
-    udp: true
-  - name: sshocean-sepuluh
-    server: sg8-ws.xvless.xyz
-    port: 443
-    type: vless
-    uuid: a167d691-c972-404d-a5ff-cfbcc3bda359
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: api.qiscus.com
+    servername: sg8-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
         Host: sg8-ws.xvless.xyz
     udp: true
-  - name: sshocean-sembilan
-    server: api.qiscus.com
+  - name: sshocean-sepuluh
+    server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 40442ba1-90c5-4ad7-993e-20c89bfcac20
+    uuid: 2472167e-99a9-4063-a31a-3ac07790d496
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -44,11 +29,11 @@ proxies:
       headers:
         Host: sg7-ws.xvless.xyz
     udp: true
-  - name: sshocean-delapan
-    server: api.fastworldpay.com
+  - name: sshocean-sembilan
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 2d8ee61a-3b1b-4e19-a0f7-331de7ac2df3
+    uuid: e825baef-2550-4128-ba06-33524a69756a
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -59,11 +44,11 @@ proxies:
       headers:
         Host: sg6-ws.xvless.xyz
     udp: true
-  - name: sshocean-tujuh
+  - name: sshocean-delapan
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 307b5f92-6afc-4e64-9b30-d25e75b624f4
+    uuid: a2bff40a-1a75-4611-90be-b801755271fe
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -74,11 +59,11 @@ proxies:
       headers:
         Host: sg5-ws.xvless.xyz
     udp: true
-  - name: sshocean-tuju
+  - name: sshocean-tujuh
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: a7d6625c-9278-4355-ae1a-61b73f827584
+    uuid: 9f24a3b9-a5cf-4595-afcc-9ccd9fe6168e
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -93,7 +78,7 @@ proxies:
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 35f203f0-f254-4a9a-9479-d63081f8a61b
+    uuid: 37e9f3d5-9eda-418f-a077-cb1f662df944
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -108,7 +93,7 @@ proxies:
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 9b2f44a0-0ce6-4a87-9b11-7414ee758191
+    uuid: 9f6a868f-aa08-4a14-a88e-c45903456c13
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -123,7 +108,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: b3600aa7-94aa-4105-91f6-86a4e767f40f
+    uuid: e84759b5-ccad-4e63-9959-f27918438d76
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -138,7 +123,7 @@ proxies:
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 33f7f4c3-f1f5-49d6-9756-9951e085b596
+    uuid: 18e34766-a28e-46a9-b8d4-27052ce142ff
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -153,7 +138,7 @@ proxies:
     server: api.fastworldpay.com
     port: 443
     type: vless
-    uuid: 2c0d9c19-7829-4685-a940-01bbb5aeb6ec
+    uuid: 606f25ee-0602-4ebc-86d3-3325096374f7
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -164,18 +149,18 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
-  - name: SG Vless-WS(2023-04-20)
-    server: api.fastworldpay.com
+  - name: sshocean-satu
+    server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 26841840-d9ef-11ed-80a5-1239d0255272
+    uuid: 56bd7135-0b56-4885-8c46-10fa1ebf79a3
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg3.socifiles.com
+    servername: sg1-ctb-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /vlws
+      path: /websocket
       headers:
-        Host: sg3.socifiles.com
+        Host: sg1-ctb-ws.xvless.xyz
     udp: true
