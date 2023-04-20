@@ -53,3 +53,16 @@ proxies:
       headers:
         Host: sg3.socifiles.com
     udp: true
+  - name: SG Trojan-WS(2023-04-27)
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: 26b780d0-df36-11ed-a121-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
