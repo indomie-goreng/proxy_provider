@@ -164,3 +164,16 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
+  - name: SG Trojan-WS(2023-05-01)
+    server: api.fastworldpay.com
+    port: 443
+    type: trojan
+    password: 33ebdd60-e29d-11ed-a95e-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
